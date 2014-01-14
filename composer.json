@@ -1,0 +1,22 @@
+{
+    "name": "alanpich/filetemplator",
+    "description": "Copy directory templates with parameters",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan Pich",
+            "email": "alan@alanpich.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "AlanPich\\FileTemplator": "lib"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/finder": "master",
+        "symfony/filesystem": "master"
+    }
+}
